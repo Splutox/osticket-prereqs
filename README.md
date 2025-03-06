@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Post-Install Configuration</h1>
+<h1>osTicket - Installation Guide</h1>
 An easy to follow tutorial on the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
@@ -31,28 +31,79 @@ An easy to follow tutorial on the post-install configuration of the open-source 
 - Item 5
 
 <h2>Instructions</h2>
-<p align="center"><strong>Start by creating a free (or paid) <a href="https://azure.microsoft.com/en-us/free/"> Microsoft Azure Subscription</a>. Once logged in, find and open the "Resource Groups" service</strong></p>
+<p align="center"><strong>Start by creating a free (or paid) <a href="https://azure.microsoft.com/en-us/free/"> Microsoft Azure Subscription</a>. Once logged in, find and open the "Virtual Machines" service, and click the "create" button, and then "create virtual machine".</strong></p>
 
 <p>
-<img src="https://i.imgur.com/DrxKJPQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/G5rgCvc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<p align= "center">Now before we create the VM(virtual machine), we will need to create a resource group. At "Resource Group" click the "Create new" underneath the dropdown, and type in a name for it. It can be anything you want, I used "Os-Ticket" for example. Then press "ok"</strong></p>
+
+<br />
+
+<p>
+<img src="https://i.imgur.com/C5TQuQ9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next under "Instance Details" you will type in a name for the virtual machine, I used "OsTicket-VM". Make sure "Reigon" is set to "(US) East US", then go to "Image" and select "Windows 10 Pro, version 22H2 - x64 Gen2" 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vpNAdOO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Scroll further down to "Size" and select "Standard_D2s_v3 - 2 vcpus, 8 GiB memory". For the "Administrator Account", create a username, and password, and be sure to write them down somewhere. Don't forget to check the licencing agreement at the bottom. After this, select the "Review + create" button.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Make your way back to the home screen and select "Virtual Machines" again, scroll to the right and copy your VM's "public IP address"
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/lXtKo36.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+TEXT
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/vpNAdOO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+TEXT
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+TEXT
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/vpNAdOO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+TEXT
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+TEXT
 </p>
 <br />
