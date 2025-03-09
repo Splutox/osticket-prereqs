@@ -152,7 +152,7 @@ In the same file download the mysql application aswell, when you get to the scre
 </p>
 <p>
 
-As you continue to set up MySQL, when you get to "configuration type", select "Standard Configuration". When you get to "Security Options", for the password, type in "root". (This password is just for example, if you were accually doing this, you would use your own password.)
+As you continue to set up MySQL, when you get to "configuration type", select "Standard Configuration". When you get to "Security Options", for the password, type in "root". (This password is just for example, if you were accually doing this, you would use your own password.) Hit next, then execute.
 </p>
 <br />
 
