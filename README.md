@@ -126,7 +126,42 @@ Head back to the file explorer, and find "This PC", click it, then double tap "W
 <img src="https://i.imgur.com/fbXIJbl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After creating the PHP file, head back to the unzipped OS ticket installation files, and find the PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip), and unzip it into the “C:\PHP” folder.
+After creating the PHP file, head back to the unzipped OS ticket installation files, and find the PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip), and extract it into the “C:PHP” folder.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/GF0yQik.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+Back in the Os ticket installation folder, find VC_redist.86, and download it. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/fr35a2A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In the same file download the mysql application aswell, when you get to the screen shown below, select "Typical", and install.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/6y85udt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+As you continue to set up MySQL, when you get to "configuration type", select "Standard Configuration". When you get to "Security Options", for the password, type in "root". (This password is just for example, if you were accually doing this, you would use your own password.)
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/hDjAjcD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/32jUgM9.pngg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+TEXT
 </p>
 <br />
 
@@ -164,3 +199,19 @@ TEXT
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+TEXT
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+TEXT
+</p>
+<br />
