@@ -59,7 +59,7 @@ Scroll further down to "Size" and select "Standard_D2s_v3 - 2 vcpus, 8 GiB memor
 <br />
 
 <p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/p4iONMX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Make your way back to the home screen and select "Virtual Machines" again, scroll to the right and copy your VM's "public IP address"
@@ -67,24 +67,28 @@ Make your way back to the home screen and select "Virtual Machines" again, scrol
 <br />
 
 <p>
-<img src="https://i.imgur.com/lXtKo36.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7xhwZrQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+Next, go to the search bar on your taskbar and search for "remote desktop connection". once your in, hit the drop down that says "Show Options", then paste your IP adress where it says "computer", and use the username from the admministrator account you wrote down earlier, and hit "OK".
+<p>
+<img src="https://i.imgur.com/XA2qX5m.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-TEXT
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/vpNAdOO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-TEXT
+After you hit "OK" you should get a pop-up asking for your password, just type in the password you wrote down, and hit "OK" again. Their will also be another security pop-up, just click don't show this again, and hit OK.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aG8svGe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+Now that your in your virtual machine open the internet explorer, copy this <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD"> Download File</a> and paste it into the browser, then download the content. Open file explorer and find the fie you downloaded, left click it and hit "extract", and "extract all" 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/JBTMpbM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 TEXT
