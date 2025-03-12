@@ -6,11 +6,6 @@
 An easy to follow tutorial on the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-
-<h2>Files To Download</h2>
-
-- FILE EXAMPLE
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -22,13 +17,6 @@ An easy to follow tutorial on the post-install configuration of the open-source 
 
 - Windows 10</b> (21H2)
 
-<h2>Post-Install Configuration Objectives</h2>
-
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
 
 <h2>Instructions</h2>
 <p align="center"><strong>Start by creating a free (or paid) <a href="https://azure.microsoft.com/en-us/free/"> Microsoft Azure Subscription</a>. Once logged in, find and open the "Virtual Machines" service, and click the "create" button, and then "create virtual machine".</strong></p>
@@ -50,7 +38,7 @@ Next under "Instance Details" you will type in a name for the virtual machine, I
 <br />
 
 <p>
-<img src="https://i.imgur.com/vpNAdOO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gYfzSSB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -59,7 +47,7 @@ Scroll further down to "Size" and select "Standard_D2s_v3 - 2 vcpus, 8 GiB memor
 <br />
 
 <p>
-<img src="https://i.imgur.com/p4iONMX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/701GC7d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Make your way back to the home screen and select "Virtual Machines" again, scroll to the right and copy your VM's "public IP address"
@@ -79,7 +67,7 @@ After you hit "OK" you should get a pop-up asking for your password, just type i
 <br />
 
 <p>
-<img src="https://i.imgur.com/aG8svGe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sZEWlaW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -106,7 +94,7 @@ Once you open the Window Features, find "Internet Infromation Services", click t
 <br />
 
 <p>
-<img src="https://i.imgur.com/yKEOjXr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/e2XRVRr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Close out of the Control Panel, and head back to the unzipped file you downloaded. Double click it and find PHPmanager and download it. Then download rewrite_amd aswell.
@@ -123,7 +111,7 @@ Head back to the file explorer, and find "This PC", click it, then double tap "W
 <br />
 
 <p>
-<img src="https://i.imgur.com/fbXIJbl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hME4Cfb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After creating the PHP file, head back to the unzipped OS ticket installation files, and find the PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip), and extract it into the “C:PHP” folder.
@@ -148,7 +136,7 @@ In the same file download the mysql application aswell, when you get to the scre
 <br />
 
 <p>
-<img src="https://i.imgur.com/6y85udt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jZgxOVX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -161,38 +149,37 @@ As you continue to set up MySQL, when you get to "configuration type", select "S
 <img src="https://i.imgur.com/32jUgM9.pngg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-TEXT
+After you've completed the download, go to the search on the taskbar, search ISS, and run as administrator.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XQKeV3X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-TEXT
+Once you open it, find and open "PHP Manager".
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/g9wZXsZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-TEXT
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-TEXT
+After opening PHP manager, press "Register new PHP version", press the browse button, then go to your PHP file in your (C:) file, and find "php-cgi" and double click it. Then press OK. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MxyV17o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next we'll restart IIS, under connections, right click "Osticket-VM", and press "stop". Once it stops, right click it again, and press "start".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/snR57g3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 TEXT
