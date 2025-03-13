@@ -182,6 +182,177 @@ Next we'll restart IIS, under connections, right click "Osticket-VM", and press 
 <img src="https://i.imgur.com/snR57g3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Now head back to your OS-ticket installation folder, and find "osTicket v1.15.8", right click it, and extract it. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/IJqgxkc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+After the file finishes extracting, 2 files should appear. Open another file explorer, and go to the (C:) drive, open "inetpub", then open "wwwroot". Look to the other file explorer that opened, and drag "upload" into the "wwwroot" file.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/bnb86kP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Rename the "upload" file to "OsTicket".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/4Z2NGs9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+Head back to IIS, and stop and start the server again.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/snR57g3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+On the left, hit the drop down on OsTicket, then "sites", then "default web site", and press "OsTicket". Look to the right and press "Browse *:80 (http) to open the Os ticket installer.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/TDf9XVd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+Look abck to IIS, in OSTicket, double click "PHP manager".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/3ytYnmS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Scroll Down to "PHP Extensions", and click “Enable or disable an extension”
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/LB0HnL6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+Scroll down the list, right click and enable: "php_imap.dll", "php_intl.dll", and "php_opcache.dll". Go back to the Osticket installer, and refresh the page.
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/YAer89A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now open fie explorer and make your way to "include" in the (C:)drive (windows (C:) > inetpub > wwwroot > OsTicket > include), and find "ost-sampleconfig.php" and rename it to "ost-config.php".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/IAXi12r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+Right click the file that you just changed and click "properties", another tab will open, click "security" at the top, then click "advanced"
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/UzcOuL3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Click "Disable inheritance", and "Remove all inherited permissions from this object"
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SMZ0hew.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+Now click "add", and for "principle", click it and type in "everyone" (not something you would normally do, this is just for practice.), press "check names", and ok.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/WpNwXV9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+TEXT
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+TEXT
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+TEXT
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+TEXT
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+TEXT
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+TEXT
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+TEXT
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+TEXT
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 TEXT
 </p>
 <br />
