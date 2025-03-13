@@ -285,12 +285,14 @@ Now click "add", and for "principle", click it and type in "everyone" (not somet
 <img src="https://i.imgur.com/WpNwXV9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-TEXT
+Under "Basic Permissions" check the "Full Control" box, and press ok. Then Aplly and ok, and ok again.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/oLY6Xww.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GgF7v4v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0fyyywc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
