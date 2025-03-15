@@ -296,7 +296,7 @@ Under "Basic Permissions" check the "Full Control" box, and press ok. Then Aplly
 </p>
 <p>
 
-TEXT
+Continue with the OsTicket installer and press "continue". Then fill out the signup information, fill it out as you like, as long as you keep track off the emails and passwords for later.
 </p>
 <br />
 
