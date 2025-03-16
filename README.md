@@ -336,45 +336,25 @@ Name the database “osTicket”, and hit ok.
 
 </p>
 <br />
-
+Head back to Osticket in the browser and type in "OsTicket" for "MySQL Database", and "root" for the username and password, and click install.
 <p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/G9ayMsB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-TEXT
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-TEXT
+Congrats! you've installed OsTicket! Now click "Admin Panel" on the side to get to the log in page.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zTfPplS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-TEXT
+
+You made it! Congrats again on succsessfully downloading OsTicket! 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0a0IlZ3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
-TEXT
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-TEXT
-</p>
-<br />
