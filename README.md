@@ -301,36 +301,39 @@ Continue with the OsTicket installer and press "continue". Then fill out the sig
 <br />
 
 <p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gnWC34u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-TEXT
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-TEXT
+Head back to the file explorer, to your OsTicket installation file and install "HeidiSQL_12.3.0.6589_Setup".
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ykvZWob.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-TEXT
+
+Open HediSQL, click skip, then new, and in the password box, type in "root" from the passowrd you saved earlier and hit open.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/9NyitcL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/97jwS9w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Right click the "unnamed" dropdown and click "create new". Then click "database"
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/o55Sllg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-TEXT
+Name the database “osTicket”, and hit ok.
+
+<img src="https://i.imgur.com/Fr19Kd0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <br />
 
