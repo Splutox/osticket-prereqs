@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Installation Guide</h1>
-An easy to follow tutorial on the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+An easy to follow tutorial on the installation of the open-source help desk ticketing system osTicket.<br />
 
 <p align="center"><strong>
 <h2>Environments and Technologies Used</h2>
