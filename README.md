@@ -28,7 +28,7 @@ An easy-to-follow tutorial on installing the open-source help desk ticketing sys
 <p align="center"><img src="https://i.imgur.com/G5rgCvc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p align="center"><strong>Now before we create the VM(virtual machine), we will need to create a resource group. At "Resource Group" click the "Create new" underneath the dropdown, and type in a name for it. It can be anything you want, I used "Os-Ticket" for example. Then press "ok"</strong></p>
+<p align="center"><strong>Now before we create the VM(virtual machine), we will need to create a resource group. At "Resource Group," click the "Create new" underneath the dropdown, and type in a name for it. It can be anything you want, I used "Os-Ticket" for example. Then press "ok"</strong></p>
 
 <br />
 
@@ -36,7 +36,7 @@ An easy-to-follow tutorial on installing the open-source help desk ticketing sys
 <p align="center"><strong><img src="https://i.imgur.com/C5TQuQ9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p align="center"><strong>Next under "Instance Details" you will type in a name for the virtual machine, I used "OsTicket-VM". Make sure "Reigon" is set to "(US) East US", then go to "Image" and select "Windows 10 Pro, version 22H2 - x64 Gen2" 
+<p align="center"><strong>Next, under "Instance Details," you will type in a name for the virtual machine. I used "OsTicket-VM". Make sure "Region" is set to "(US) East US", then go to "Image" and select "Windows 10 Pro, version 22H2 - x64 Gen2" 
 </p>
 <br />
 
@@ -45,7 +45,7 @@ An easy-to-follow tutorial on installing the open-source help desk ticketing sys
 </p>
 <p>
 
-<p align="center"><strong>Scroll further down to "Size" and select "Standard_D2s_v3 - 2 vcpus, 8 GiB memory". For the "Administrator Account", create a username, and password, and be sure to write them down somewhere. Don't forget to check the licensing agreement at the bottom. After this, select the "Review + Create" button.
+<p align="center"><strong>Scroll further down to "Size" and select "Standard_D2s_v3 - 2 vcpus, 8 GiB memory". For the "Administrator Account", create a username and password, and be sure to write them down somewhere. Don't forget to check the licensing agreement at the bottom. After this, select the "Review + Create" button.
 </p>
 <br />
 
@@ -58,41 +58,41 @@ An easy-to-follow tutorial on installing the open-source help desk ticketing sys
 <br />
 
 <p>
-<p align="center"><strong><img src="https://i.imgur.com/7xhwZrQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"><strong><img src="https://i.imgur.com/9vp22SU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p align="center"><strong>Next, go to the search bar on your taskbar and search for "remote desktop connection". once you are in, hit the drop-down that says "Show Options", then paste your IP address where it says "computer", use the username from the administrator account you wrote down earlier and hit "OK".
+<p align="center"><strong>Next, go to the search bar on your taskbar and search for "remote desktop connection". Once you are in, hit the drop-down that says "Show Options", then paste your IP address where it says "computer", use the username from the administrator account you wrote down earlier, and hit "OK".
 <p>
-<p align="center"><strong><img src="https://i.imgur.com/XA2qX5m.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p align="center"><strong>After you hit "OK" you should get a pop-up asking for your password, type in the password you wrote down and hit "OK" again. There will also be another security pop-up, click "Don't show this again", and hit OK.
-</p>
-<br />
-
-<p>
-<p align="center"><strong><img src="https://i.imgur.com/sZEWlaW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"><strong><img src="https://i.imgur.com/F4GSIiL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
-<p align="center"><strong>Now that you are in your virtual machine open Internet Explorer, copy this <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD"> Download File</a> and paste it into the browser, then download the content. Open File Explorer and find the file you downloaded, left-click it, and hit "extract", and "extract all" 
+<p align="center"><strong>After you hit "OK," you should get a pop-up asking for your password, type in the password you wrote down, and hit "OK" again. There will also be another security pop-up; click "Don't show this again" and hit OK.
 </p>
 <br />
 
 <p>
-<p align="center"><strong><img src="https://i.imgur.com/JBTMpbM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"><strong><img src="https://i.imgur.com/JGzhOuo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p align="center"><strong>Now we need to download/enable IIS in Windows. Search for "Control Panel" in the taskbar, and open it. once your in select "Programs", and select "Turn Windows features on or off".
+
+<p align="center"><strong>Now that you are in your virtual machine, open Internet Explorer, copy this <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD"> Download File</a> and paste it into the browser, then download the content. Open File Explorer and find the file you downloaded, left-click it, and hit "extract", and "extract all" 
 </p>
 <br />
 
 <p>
-<p align="center"><strong><img src="https://i.imgur.com/jRszDjZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<p align="center"><strong><img src="https://i.imgur.com/SNjfZM6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"><strong><img src="https://i.imgur.com/WFTaHrD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p align="center"><strong>Now we need to download/enable IIS in Windows. Search for "Control Panel" in the taskbar, and open it. Once you're in, select "Programs", and select "Turn Windows features on or off".
+</p>
+<br />
+
+<p>
+<p align="center"><strong><img src="https://i.imgur.com/uEPHgPR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"><strong><img src="https://i.imgur.com/OxN3NZW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-<p align="center"><strong>Once you open the Window Features, find "Internet Information Services", and click the checkbox. Next, hit the dropdown beside it, find "World Wide Web Services", and hit the drop-down beside that, then hit another dropdown beside "Application Development Features", Find "CGI" and click the checkbox for it, and hit OK.
+<p align="center"><strong>Once you open the Windows Features, find "Internet Information Services", and click the checkbox. Next, hit the dropdown beside it, find "World Wide Web Services", and hit the drop-down beside that, then hit another dropdown beside "Application Development Features", find "CGI" and click the checkbox for it, and hit OK.
 </p>
 <br />
 
@@ -105,7 +105,7 @@ An easy-to-follow tutorial on installing the open-source help desk ticketing sys
 <br />
 
 <p>
-<p align="center"><strong><img src="https://i.imgur.com/pyGpN4x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"><strong><img src="https://i.imgur.com/t6x6VfF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -122,7 +122,7 @@ An easy-to-follow tutorial on installing the open-source help desk ticketing sys
 <br />
 
 <p>
-<p align="center"><strong><img src="https://i.imgur.com/GF0yQik.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"><strong><img src="https://i.imgur.com/QG4YrD6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -131,10 +131,10 @@ An easy-to-follow tutorial on installing the open-source help desk ticketing sys
 <br />
 
 <p>
-<p align="center"><strong><img src="https://i.imgur.com/fr35a2A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p align="center"><strong><img src="https://i.imgur.com/PiOO8pY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p align="center"><strong>In the same file download the MySQL application as well, when you get to the screen shown below, select "Typical", and install.
+<p align="center"><strong>In the same file, download the MySQL application as well. When you get to the screen shown below, select "Typical" and install.
 </p>
 <br />
 
@@ -143,7 +143,7 @@ An easy-to-follow tutorial on installing the open-source help desk ticketing sys
 </p>
 <p>
 
-<p align="center"><strong>As you continue to set up MySQL, when you get to "configuration type", select "Standard Configuration". When you get to "Security Options", for your password, type in "root". (This password is just for example, if you were applying this for a real company, you would use your password.) Hit next, then execute.
+<p align="center"><strong>As you continue to set up MySQL, when you get to "configuration type", select "Standard Configuration". When you get to "Security Options", for your password, type in "root". (This password is just for example; if you were applying this for a real company, you would use your password.) Hit next, then execute.
 </p>
 <br />
 
@@ -152,7 +152,7 @@ An easy-to-follow tutorial on installing the open-source help desk ticketing sys
 <p align="center"><strong><img src="https://i.imgur.com/32jUgM9.pngg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p align="center"><strong>After you've completed the download, go to the search on the taskbar, search ISS, and run as administrator.
+<p align="center"><strong>After you've completed the download, go to the search on the taskbar, search ISS, and run it as an administrator.
 </p>
 <br />
 
@@ -177,7 +177,7 @@ An easy-to-follow tutorial on installing the open-source help desk ticketing sys
 <p align="center"><strong><img src="https://i.imgur.com/MxyV17o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p align="center"><strong>Next we'll restart IIS, under connections, right-click "Osticket-VM", and press "stop". Once it stops, right-click it again, and press "Start".
+<p align="center"><strong>Next, we'll restart IIS, under connections, right-click "Osticket-VM", and press "stop". Once it stops, right-click it again and press "Start".
 </p>
 <br />
 
@@ -194,7 +194,7 @@ An easy-to-follow tutorial on installing the open-source help desk ticketing sys
 </p>
 <p>
 
-<p align="center"><strong>After the file finishes extracting, 2 files should appear. Open another file explorer, and go to the (C:) drive, open "inetpub", then open "wwwroot". Look to the other file explorer that opened, and drag "upload" into the "wwwroot" file.
+<p align="center"><strong>After the file finishes extracting, 2 files should appear. Open another file explorer, and go to the (C:) drive, open "inetpub", then open "wwwroot". Look to the other file explorer that opened and drag "upload" into the "wwwroot" file.
 </p>
 <br />
 
@@ -288,7 +288,7 @@ On the left, hit the drop-down on OsTicket, then "sites", then "default website"
 <p align="center"><strong><img src="https://i.imgur.com/WpNwXV9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p align="center"><strong>Under "Basic Permissions" check the "Full Control" box, and press ok. Then Aplly and ok, and ok again.
+<p align="center"><strong>Under "Basic Permissions," check the "Full Control" box, and press ok. Then Apply and ok, and ok again.
 </p>
 <br />
 
@@ -307,7 +307,7 @@ On the left, hit the drop-down on OsTicket, then "sites", then "default website"
 <p align="center"><strong><img src="https://i.imgur.com/gnWC34u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p align="center"><strong>Head back to the file explorer, to your OsTicket installation file and install "HeidiSQL_12.3.0.6589_Setup".
+<p align="center"><strong>Head back to the file explorer, to your OsTicket installation file, and install "HeidiSQL_12.3.0.6589_Setup".
 </p>
 <br />
 
@@ -324,7 +324,7 @@ On the left, hit the drop-down on OsTicket, then "sites", then "default website"
 <p align="center"><strong><img src="https://i.imgur.com/97jwS9w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p align="center"><strong> Right-click the "unnamed" dropdown and click "create new". Then click "Database"
+<p align="center"><strong> Right-click the "unnamed" dropdown and click "create new". Then click "Database."
 </p>
 <br />
 
@@ -339,12 +339,12 @@ On the left, hit the drop-down on OsTicket, then "sites", then "default website"
 
 </p>
 <br />
-<p align="center"><strong>Head back to Osticket in the browser type in "OsTicket" for "MySQL Database", and "root" for the username and password, and click install.
+<p align="center"><strong>Head back to Osticket in the browser, type in "OsTicket" for "MySQL Database", and "root" for the username and password, and click install.
 <p>
 <p align="center"><strong><img src="https://i.imgur.com/G9ayMsB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<p align="center"><strong>Congrats! you've installed OsTicket! Now click "Admin Panel" on the side to get to the login page.
+<p align="center"><strong>Congrats! You've installed OsTicket! Now click "Admin Panel" on the side to get to the login page.
 </p>
 <br />
 
